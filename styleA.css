@@ -1,0 +1,117 @@
+body{
+    background-color: blanchedalmond;
+
+}
+img {
+    float: right;
+  }
+  header{
+      background-color: brown;
+  }
+.navbar{
+   
+    /* background-color: brown; */
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.left{
+    color: white;
+
+}
+.right{
+    color: white;
+    margin-right: 30px;    
+    display: grid;
+    grid-template-columns: repeat(6,minmax(min-content,max-content));
+    grid-column-gap: 30px;
+}
+.SchoolName{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+   
+}
+.pathway{
+    color: rgb(180, 134, 134);
+}
+.section{
+   
+    opacity: 1;
+    height:550px;
+    display: grid;
+    grid-template-rows: repeat(5,minmax(min-content,max-content));
+    grid-template-columns: repeat(4,minmax(min-content,max-content));
+    grid-gap: 10px;
+}
+/* .div{
+    border:solid 0.5px black;
+} */
+.divOne{
+    grid-row:1/span 2;
+    grid-column: 1;
+    color: rgb(12, 9, 5);
+    background-color:rgb(255, 255, 255);
+    
+}
+.divTwo{
+    grid-row:1/span 2;
+    grid-column: 2/span 3;
+    background-color: whitesmoke;
+    
+}
+.divThree{
+    color: rgb(219, 210, 199);
+    background-color: rgb(43, 21, 21);
+}
+.divFour{
+    background-color:gray;
+
+}
+.divFive{
+    background-color: lightcoral;
+
+}
+.divSix{
+    background-color: slategray;
+}
+.divEight{
+    grid-row:4;
+    grid-column: 2/span 2;
+    background-color: whitesmoke;
+}
+.divTen{
+    grid-row: 5;
+    grid-column:1/span 4;
+    color: gray;
+    background-color: black;
+}
+.divEleven{
+    grid-row: 2;
+    grid-column: 4;
+    background-color: aqua;
+   
+}
+footer{
+    background-color:black;
+}
+/* .FooterItems{
+    border-collapse: collapse;
+    margin:20px 20px 20px 20px;
+} */
+.tablerow{
+    padding: 5px;
+}
+.navbar1{
+    display: flex;
+    flex-direction: column;
+}
+.navbarlist{
+    list-style: none;
+}
+a{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
